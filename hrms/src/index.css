@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.sidebar-button {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    justify-content: flex-start; /* Aligns content to the left */
+    width: 100%;
+    padding: 10px;
+    color: white;
+    gap: 12px; /* Adds space between the icon and text */
+  }
+  
+  .sidebar-button .icon {
+    min-width: 20px; /* Ensure all icons have a consistent width */
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sidebar-button span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .sidebar-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add hover effect */
+  }
+  
